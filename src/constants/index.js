@@ -47,11 +47,11 @@ import {
       icon: web,
     },
     {
-      title: "React Native Developer",
+      title: "React JS Developer",
       icon: mobile,
     },
     {
-      title: "Backend Developer",
+      title: "UI Developer",
       icon: backend,
     },
     {
@@ -130,7 +130,7 @@ import {
       ],
     },
     {
-      title: "React Native Developer",
+      title: "UI/UX Designer",
       company_name: "Tesla",
       icon: tesla,
       iconBg: "#E6DEDD",

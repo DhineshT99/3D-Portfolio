@@ -1,11 +1,3 @@
-import React from 'react'
+import SectionWrapper from "./SectionWrapper";
 
-const index = () => {
-  return (
-    <div>
-      
-    </div>
-  )
-}
-
-export default index
+export { SectionWrapper };
