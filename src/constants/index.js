@@ -14,11 +14,6 @@ import {
   mongodb,
   git,
   figma,
-  docker,
-  meta,
-  starbucks,
-  tesla,
-  shopify,
   tripguide,
   threejs,
 } from "../assets";
@@ -26,7 +21,7 @@ import ssintek from '../assets/ssintek.jpg';
 import dorustree from '../assets/Dorustree.png';
 import genome from '../assets/genome.jpg';
 import fitclub from '../assets/fitclub.jpg';
-import Gamershub from '../assets/Gamershub.png';
+import cineflix from "../assets/cineflix.png"
 
 export const navLinks = [
   {
@@ -223,30 +218,30 @@ const projects = [
     source_code_link: "https://github.com/Dhineshthiru/fitclub-responsive",
   },
   {
-    name: "Gamers Hub",
+    name: "Cine Flix",
     description:
-      "Web application that enables users to search games according to their requirements and it gives access the users who claimed their special membership to play advanced games",
+      "Web application that enables users to search movies or series according to their requirements and it gives access the users who claimed their special membership to play selected movies",
     tags: [
       {
         name: "html",
         color: "blue-text-gradient",
       },
       {
-        name: "bootstrap",
-        color: "green-text-gradient",
-      },
-      {
         name: "flexbox",
         color: "pink-text-gradient",
       },
+      {
+        name: "responsiveness",
+        color: "green-text-gradient",
+      },
     ],
-    image: Gamershub,
-    source_code_link: "https://github.com/Dhineshthiru/FLEXBOX-WEBSITE",
+    image: cineflix,
+    source_code_link: "https://github.com/Dhineshthiru/CINEFLIX-WEBSITE.git",
   },
   {
     name: "Trip Advisor",
     description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+      "A comprehensive travel platform that helps users plan their trips by booking flights, hotels, and rental cars. It also provides recommendations, reviews, and insights for popular destinations, making travel planning easier and more informed..!",
     tags: [
       {
         name: "reactjs",
