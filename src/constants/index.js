@@ -22,6 +22,9 @@ import {
   tripguide,
   threejs,
 } from "../assets";
+import ssintek from '../assets/ssintek.jpg';
+import dorustree from '../assets/Dorustree.png';
+import genome from '../assets/genome.jpg';
 import fitclub from '../assets/fitclub.jpg';
 import Gamershub from '../assets/Gamershub.png';
 
@@ -31,6 +34,10 @@ export const navLinks = [
     title: "About",
   },
   {
+    id: "skills",
+    title: "Skills",
+  },
+  {
     id: "work",
     title: "Work",
   },
@@ -38,6 +45,7 @@ export const navLinks = [
     id: "contact",
     title: "Contact",
   },
+  
 ];
 
 const services = [
@@ -108,94 +116,90 @@ const technologies = [
     name: "figma",
     icon: figma,
   },
-  {
-    name: "docker",
-    icon: docker,
-  },
+  
 ];
 
 const experiences = [
   {
-    title: "React.js Developer",
-    company_name: "Starbucks",
-    icon: starbucks,
+    title: "Senior Front end developer ",
+    company_name: "SSINTEK(Solarsys Innovations pvt,ltd),Trichy.",
+    icon: ssintek,
     iconBg: "#383E56",
-    date: "March 2020 - April 2021",
+    date: "June 2023 - Present",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Developed and maintained client-facing web applications for TELSTRA, Australia’s leading technology and telecommunications company.",
+            "Gained hands-on experience with Single-SPA micro-frontend architecture and other related technologies",
+            "Led and facilitated knowledge-sharing sessions and directly interacted with clients to gather requirements and provide technical solutions.",
+            "Designed and implemented responsive webpages using Tailwind CSS and integrated ABLE and AEM components",
+            "Worked within an Agile development environment, collaborating closely with cross functional teams to ensure project success."
     ],
   },
   {
-    title: "UI/UX Designer",
-    company_name: "Tesla",
-    icon: tesla,
+    title: "Junior Front end developer",
+    company_name: "Dorustree company,Trichy.",
+    icon: dorustree,
     iconBg: "#E6DEDD",
-    date: "Jan 2021 - Feb 2022",
+    date: "Jan 2023 - May 2023",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Trained in modern front-end technologies, focusing on React.js and Node.js.",
+      "Contributed as a backup resource on several client projects, developing dynamic and interactive webpages.",
+      "Gained experience in delivering web solutions that met client requirements . and industry standards."
     ],
   },
   {
-    title: "Web Developer",
-    company_name: "Shopify",
-    icon: shopify,
+    title: "Software Programmer Intern",
+    company_name: "Genome Internationals,Chennai.",
+    icon: genome,
     iconBg: "#383E56",
-    date: "Jan 2022 - Jan 2023",
+    date: "Sep 2022 - Jan 2023",
     points: [
       "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
-  },
-  {
-    title: "Full stack Developer",
-    company_name: "Meta",
-    icon: meta,
-    iconBg: "#E6DEDD",
-    date: "Jan 2023 - Present",
-    points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Acquired foundational skills in React Js, Java, HTML, CSS, and MySQL.",
+      "Participated in workshops and hands-on training sessions to strengthen understanding of basic programming and web development principles.",
+      "Contributed to the development of basic web applications and database management tasks."
     ],
   },
 ];
+
 
 const testimonials = [
   {
-    testimonial:
-      "I thought it was impossible to make a website as beautiful as our product, but Dhinesh proved me wrong.",
-    name: "Sarah",
-    designation: "CFO",
-    company: "Acme Co",
-    image: "https://randomuser.me/api/portraits/women/4.jpg",
+    title: 'Frontend',
+    skills:[
+        {skill:"HTML5",percentage:"90%"},
+        {skill:"CSS (Sass/SCSS/Bootstrap/Tailwind CSS)",percentage:"90%"},
+        {skill:"Javascript (ES6)",percentage:"80%"},
+        {skill:"React.js (Redux/Hooks/Routes)",percentage:"85%"},
+    ],
   },
   {
-    testimonial:
-      "I've never met a web developer who truly cares about their clients' success like Dhinesh does.",
-    name: "Dev",
-    designation: "COO",
-    company: "DEF Corp",
-    image: "https://randomuser.me/api/portraits/men/5.jpg",
+    title: 'Backend',
+    skills:[
+        {skill:"SQL", percentage:"70%"},
+        {skill:"Node.js",percentage:"70%"},
+        {skill:"Express.js",percentage:"60%"},
+    ],
   },
   {
-    testimonial:
-      "After Dhinesh optimized our website, our traffic increased by 50%. We can't thank them enough!",
-    name: "Jennifer",
-    designation: "CTO",
-    company: "456 Enterprises",
-    image: "https://randomuser.me/api/portraits/women/6.jpg",
+    title: 'Tools',
+    skills:[
+        {skill:"Git & Github",percentage:"85%"},
+        {skill:"Postman",percentage:"82%"},
+        {skill:"Visual Studio Code",percentage:"90%"},
+        {skill:"Webpack",percentage:"80%"},
+        {skill:"Responsive Design",percentage:"80%"},
+    ],
+  },
+  {
+    title: 'Soft Skills',
+    skills:[
+        {skill:"Problem-solving",percentage:"80%"},
+        {skill:"Collaboration",percentage:"75%"},
+        {skill:"Adaptability",percentage:"80%"},
+        {skill:"Leadership Quality",percentage:"85%"},
+    ],
   },
 ];
-
 const projects = [
   {
     name: "Fit Club",
